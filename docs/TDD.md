@@ -69,7 +69,8 @@ export const isWithinLimit = (plan, used) => used <= resolvePlanLimit(plan);
 // RED 3: 負値はエラー（異常系）→ GREEN: ガード追加 → REFACTOR
 ```
 
-完全な段階は `docs/WALKTHROUGH.md`（コミット履歴）で追える。
+完全な段階（RED→GREEN→REFACTOR の各ステップとコミット例）は
+`docs/WALKTHROUGH.md` で追える。
 
 ---
 
