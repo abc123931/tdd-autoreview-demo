@@ -1,0 +1,7 @@
+---
+description: コードレビュー観点
+alwaysApply: true
+---
+
+PR / 差分のレビュー時は必ず @.cursor/BUGBOT.md の基準に従う。
+Important はそこに定義された本番事故級のみ。マージはブロックしない（助言）。
